@@ -213,7 +213,7 @@ class CalculatorScreen extends StatelessWidget {
                       iconColor: Theme.of(context).colorScheme.onPrimary,
                       color: Theme.of(context).colorScheme.secondaryVariant,
                       callBack: () {
-                        launch('https://github.com/ahmadshahal').then(
+                        launch('https://github.com/ahmadshahal/QCalc').then(
                           (bool launch) {
                             if (!launch) {
                               ScaffoldMessenger.of(context).showSnackBar(
